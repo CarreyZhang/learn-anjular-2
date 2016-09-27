@@ -8,6 +8,7 @@ import { routing,
 
 import { HeroesModule }         from './heroes/heroes.module';
 import { CrisisCenterModule }   from './crisis-center/crisis-center.module';
+import { HobbyModule }   from './hobby/hobby.module';
 
 import { LoginComponent }       from './login.component';
 
@@ -19,7 +20,8 @@ import { DialogService }        from './dialog.service';
     FormsModule,
     routing,
     HeroesModule,
-    CrisisCenterModule
+    CrisisCenterModule,
+    HobbyModule
   ],
   declarations: [
     AppComponent,
